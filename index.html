@@ -12,45 +12,49 @@
     </header>
     <main class="main">
       <section class="section section-add">
-        <label class="section-add__label tittle" for="new-task">Add Item</label>
+        <h3 class="section-add__label tittle" for="new-task">Add Item</h3>
         <div class="section-add__wrapper">
           <input id="new-task" class="task section-add__input input-text" type="text">
           <button class="btn">Add</button>
         </div>
       </section>
-      <h3 class="tittle">Todo</h3>
-      <ul class="section section-todo">
-        <li class="section__item"><!---->
-          <input class="section__checkbox" type="checkbox">
-          <label class="task section__label">Pay Bills</label>
-          <input class="task input-text section__input" type="text">
-          <button class="btn-edit btn">Edit</button>
-          <button class="btn-delete btn">
-            <img class="btn-delete__img" src="./remove.svg" alt="">
-          </button>
-        </li>
-        <li class="section__item-edit section__item">
-          <input class="section__checkbox" type="checkbox">
-          <label class="task section__label">Go Shopping</label>
-          <input class="task section__input input-text" type="text" value="Go Shopping">
-          <button class="btn-edit btn">Save</button>
-          <button class="btn-delete btn">
-            <img class="btn-delete__img" src="./remove.svg" alt="">
-          </button>
-        </li>
-      </ul>
-      <h3 class="tittle">Completed</h3>
-      <ul class="section-complete section">
-        <li class="section__item">
-          <input class="section__checkbox" type="checkbox" checked>
-          <label class="task section-complete__label section__label">See the Doctor</label>
-          <input type="text" class="task section__input input-text">
-          <button class="btn-edit btn">Edit</button>
-          <button class="btn-delete btn">
-            <img class="btn-delete__img" src="./remove.svg" alt="">
-          </button>
-        </li>
-      </ul>
+      <section>
+        <h3 class="tittle">Todo</h3>
+        <ul class="section section-todo">
+          <li class="section__item">
+            <input class="section__checkbox" type="checkbox">
+            <label class="task section__label">Pay Bills</label>
+            <input class="task input-text section__input" type="text">
+            <button class="btn-edit btn">Edit</button>
+            <button class="btn-delete btn">
+              <img class="btn-delete__img" src="./remove.svg" alt="">
+            </button>
+          </li>
+          <li class="section__item-edit section__item">
+            <input class="section__checkbox" type="checkbox">
+            <label class="task section__label">Go Shopping</label>
+            <input class="task section__input input-text" type="text" value="Go Shopping">
+            <button class="btn-edit btn">Save</button>
+            <button class="btn-delete btn">
+              <img class="btn-delete__img" src="./remove.svg" alt="">
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3 class="tittle">Completed</h3>
+        <ul class="section-complete section">
+          <li class="section__item">
+            <input class="section__checkbox" type="checkbox" checked>
+            <label class="task section-complete__label section__label">See the Doctor</label>
+            <input type="text" class="task section__input input-text">
+            <button class="btn-edit btn">Edit</button>
+            <button class="btn-delete btn">
+              <img class="btn-delete__img" src="./remove.svg" alt="">
+            </button>
+          </li>
+        </ul>
+      </section>
     </main>
     <script src="app.js"></script>
   </body>
