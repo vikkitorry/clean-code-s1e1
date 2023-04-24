@@ -1,6 +1,6 @@
 /* Basic Style */
 
-.page {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -129,18 +129,18 @@ button{
   vertical-align: middle;
 }
 
-.section__item > .section__checkbox {
+.section__checkbox {
   margin: 0 10px;
 }
 
-.section__item  > .section__label {
+.section__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.section__item > .section__input {
+.section__input {
   width: 226px;
 }
 
